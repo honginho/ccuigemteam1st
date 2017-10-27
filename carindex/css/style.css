@@ -1,0 +1,90 @@
+/* style.css */
+
+/* 自訂 font */
+@font-face {
+    font-family: sp;
+    src: url(../font/segoe_print.ttf); }
+@font-face {
+    font-family: wl;
+    src: url(../font/wide_latin.ttf);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+}
+
+body {
+    background: url("../img/bg.jpg");
+    background-size: cover;
+}
+
+#copyright {
+    color: #FFF;
+    cursor: default;
+    font-family: sp;
+    text-align: center;
+    user-select: none;
+}
+
+#navBar {
+    position: absolute;
+        top: 2em;
+        right: 2em;
+    cursor: pointer;
+    transition: .3s; }
+    .navIcon {
+        display: block;
+        width: 50px;
+        height: 7px;
+        margin: 7px 7px;
+        background: #FFF;
+        transition: .3s;
+}
+
+#title {
+    position: absolute;
+        top: 20%;
+        left: 15%;
+    color: #FFF; }
+    #titleContent {
+        cursor: default;
+        font-size: 3em;
+        user-select: none; }
+    #titleContent > p {
+        margin-top: -20px;
+        padding-left: 4em;
+        font-family: sp;
+        font-size: 1em;
+}
+
+#productImg {
+    position: fixed;
+        top: 5%;
+        bottom: 0;
+        left: 45%;
+        right: -10%;
+    cursor: default;
+    user-select: none;
+    z-index: -1; }
+    #productImg > img {
+        width: 80%;
+}
+
+#knowMore {
+    padding: 4px 6px;
+    position: fixed;
+        bottom: 10%;
+        left: 10%;
+    background: #000;
+    border: 1px solid #FFF;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 2em;
+    user-select: none;
+}

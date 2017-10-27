@@ -1,0 +1,70 @@
+/* howP.css */
+
+#pProHow {
+    position: absolute;
+        top: 5%;
+        bottom: 5%;
+        left: 5%;
+        right: 5%;
+    width: 90%;
+}
+
+#howProcedureUp {
+    width: 90%;
+    margin: 0 5%;
+    padding-top: 5%;
+    display: table;
+}
+
+#howProcedureDown {
+    width: 90%;
+    margin: 3% auto 0;
+    display: table;
+}
+/*
+.flexBox {
+    display: flex;
+    align-items: center;
+}
+.flexBox > div {
+    flex: 1;
+}
+*/
+.HPBox {
+    /*display: inline-block;*/
+    width: 28%;
+    color: #000;display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.HPTitle {
+    width: 86%;
+    margin: 1% 5%;
+    padding: 1% 2%;
+    background: #FFF;
+    font-family: sp;
+    text-align: left;
+}
+
+.HPContent {
+    width: 100%;
+}
+
+.HPContent img {
+    display: block;
+    width: 80%;
+    margin: 1% 5%;
+    padding: 5%;
+}
+
+.arrow {
+    /*display: inline-block;*/
+    width: 4%;display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.arrow > img {
+    display: block;
+    width: 100%;
+}
