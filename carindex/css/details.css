@@ -62,6 +62,7 @@
     cursor: pointer;
     font-size: 3.5em;
     user-select: none;
+    z-index: 9;
 }
 
 /* 左大區塊 */
